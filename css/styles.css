@@ -1,17 +1,23 @@
-.result{
+.result {
   display: none;
 }
-.jumbotron{
+
+.jumbotron {
   color: #4156f4;
   background-color: lightblue;
   text-align: center;
 }
 
-.container{
+.container {
   color: #260f70;
   font-size: 20;
   font-weight: bolder;
 }
-body  {
+
+body {
+background-color: #caf7f6;
   background-image: : url("img/back.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
