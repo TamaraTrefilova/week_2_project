@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Week_2_project</title>
-  </head>
-  <body>
-  <div class="container">
 
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Quiz</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to the Programming Language Suggester webpage!</h1>
+    <p>Learning a programming language takes a lot of work, so use this quiz to make sure you make a wise decision about which one to study before you start. </p>
   </div>
-  </body>
+  <form>
+    <div class="form-group">
+      <div class="col-sm-5">
+        <label for="inputName">Your Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Your name">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-5">
+        <label for="inputAge">Your age</label>
+        <input type="number" class="form-control" id="inputAge" placeholder="Your age">
+      </div>
+    </div>
+    <div class="form-group" name="bed">
+      <div class="col-sm-5">
+        <p>Do you make your bed?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="bed" value="option1">
+            Nope
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="bed" value="option2">
+            Before I get in
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="bed" value="option3">
+            Every morning
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group" name="instrument">
+      <div class="col-sm-5">
+        <p>What instrument do you play?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="instrument" value="option1">
+            None
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="instrument" value="option2">
+            Piano
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="instrument" value="option3">
+            Ukulele
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="instrument" value="option4">
+            Guitar
+          </label>
+        </div>
+      </div>
+    </div>
+</body>
+
 </html>
