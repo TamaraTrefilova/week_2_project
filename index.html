@@ -12,9 +12,12 @@
 </head>
 
 <body>
+
   <div class="container">
     <h1>Welcome to the Programming Language Suggester webpage!</h1>
-    <p>Learning a programming language takes a lot of work, so use this quiz to make sure you make a wise decision about which one to study before you start. </p>
+    <p>Learning a programming language takes a lot of work, so use this quiz to make sure you make a wise decision about which one to study before you start. So,
+      what Programming Language Are You?</p>
+      <hr>
     <form>
       <div class="form-group">
         <div class="col-sm-5">
@@ -137,31 +140,37 @@
           <p>What kind of pet do you have?</p>
           <div class="radio">
             <label>
-              <input type="radio" name="book" value="option1">
+              <input type="radio" name="pet" value="option1">
               Cat
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="book" value="option2">
+              <input type="radio" name="pet" value="option2">
               Dog
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="book" value="option3">
+              <input type="radio" name="pet" value="option3">
               None
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="book" value="option4">
+              <input type="radio" name="pet" value="option4">
               Other
             </label>
           </div>
         </div>
       </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+  </div>
+  <div class="container">
+    <div class="result">
+      <p>Hey, <span class="nameInput"></span>! You are <span class="languageResult"></span></p>
+    </div>
   </div>
 </body>
 
