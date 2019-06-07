@@ -15,72 +15,154 @@
   <div class="container">
     <h1>Welcome to the Programming Language Suggester webpage!</h1>
     <p>Learning a programming language takes a lot of work, so use this quiz to make sure you make a wise decision about which one to study before you start. </p>
+    <form>
+      <div class="form-group">
+        <div class="col-sm-5">
+          <label for="inputName">Your Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Your name">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-5">
+          <label for="inputAge">Your age</label>
+          <input type="number" class="form-control" id="inputAge" placeholder="Your age">
+        </div>
+      </div>
+      <div class="form-group" name="bed">
+        <div class="col-sm-5">
+          <p>Do you make your bed?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bed" value="option1">
+              Nope
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bed" value="option2">
+              Before I get in
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="bed" value="option3">
+              Every morning
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group" name="instrument">
+        <div class="col-sm-5">
+          <p>What instrument do you play?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="instrument" value="option1">
+              None
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="instrument" value="option2">
+              Piano
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="instrument" value="option3">
+              Ukulele
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="instrument" value="option4">
+              Guitar
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group" name="book">
+        <div class="col-sm-5">
+          <p>What is your favorite book?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option1">
+              4 Hour Work Week
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option2">
+              Lord of the Rings
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option3">
+              Lolita
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option4">
+              Siddhartha
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group" name="comp">
+        <div class="col-sm-5">
+          <p>Do you make your bed?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comp" value="option1">
+              Mac
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comp" value="option2">
+              PC
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comp" value="option3">
+              Linux
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group" name="pet">
+        <div class="col-sm-5">
+          <p>What kind of pet do you have?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option1">
+              Cat
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option2">
+              Dog
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option3">
+              None
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="book" value="option4">
+              Other
+            </label>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
-  <form>
-    <div class="form-group">
-      <div class="col-sm-5">
-        <label for="inputName">Your Name</label>
-        <input type="text" class="form-control" id="inputName" placeholder="Your name">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-5">
-        <label for="inputAge">Your age</label>
-        <input type="number" class="form-control" id="inputAge" placeholder="Your age">
-      </div>
-    </div>
-    <div class="form-group" name="bed">
-      <div class="col-sm-5">
-        <p>Do you make your bed?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="bed" value="option1">
-            Nope
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="bed" value="option2">
-            Before I get in
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="bed" value="option3">
-            Every morning
-          </label>
-        </div>
-      </div>
-    </div>
-    <div class="form-group" name="instrument">
-      <div class="col-sm-5">
-        <p>What instrument do you play?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="instrument" value="option1">
-            None
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="instrument" value="option2">
-            Piano
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="instrument" value="option3">
-            Ukulele
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="instrument" value="option4">
-            Guitar
-          </label>
-        </div>
-      </div>
-    </div>
 </body>
 
 </html>
