@@ -39,6 +39,7 @@ $(document).ready(function() {
     var result = getAnswer(age, bedAnswer, instrumentAnswer, bookAnswer, compAnswer, petAnswer );
     $(".nameOutput").append(name);
     $(".languageOutput").append(result);
-    $(".result").show();
+    $(".modal").show();
+    $(".modal").modal("hide"); 
   });
 });

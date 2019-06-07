@@ -1,7 +1,14 @@
 .result {
-  display: none;
+  font-size: 20;
+  font-weight: bolder;
+  color: #0e7993;
 }
 
+
+.modal{
+  display: none;
+  text-align: center;
+}
 .jumbotron {
   color: #4156f4;
   background-color: lightblue;
