@@ -6,20 +6,20 @@ var bookAnswer;
 var compAnswer;
 var petAnswer;
 
-var getAnswer = function(age, answer1, answer2, answer3, answer4, answer5) {
+var getAnswer = function(age, bed, instrument, book, comp, pet) {
   if (age > 70) {
     return "<div> <a href=\"http://www.codecademy.com\">Please check Code academy!</a> </div>";
   } else if (age < 12) {
     return "<div> <a href=\"http://www.tynker.com\">Please check this! It is going to be fun! </a> </div>";
-  } else if ((answer1 === "option1") && (answer2 === "option1") && (answer3 === "option1" ) && (answer4 === "option2") && (answer5 === "option1" || answer5 === "option2")) {
+  } else if ((bed === "option1") && (instrument === "option1") && (book === "option1" ) && (comp === "option2") && (answer5 === "option1" || answer5 === "option2")) {
     return "You are Java person!";
-  } else if (( answer1 === "option2") && (answer2 === "option3" || answer2 === "option2") && (answer3 === "option3" || answer3 === "option2") && (answer4 === "option3" || answer4 === "option2") && (answer5 === "option3" || answer5 === "option2")) {
+  } else if (( bed === "option2") && (instrument === "option3" || instrument === "option2") && (book === "option3" || book === "option2") && (comp === "option3" || comp === "option2") && (pet === "option3" || pet === "option2")) {
     return " You are JavaScript person!";
-  } else if ((answer1 === "option3" || answer1 === "option1") && (answer2 === "option1" || answer2 === "option3") && (answer3 === "option1" || answer3 === "option3") && (answer4 === "option1" || answer4 === "option3") && (answer5 === "option1" || answer5 === "option3")) {
+  } else if ((bed === "option3" || bed === "option1") && (instrument === "option1" || instrument === "option3") && (book === "option1" || book === "option3") && (comp === "option1" || comp === "option3") && (pet === "option1" || pet === "option3")) {
     return "You are C# person!";
-  } else if ((answer1 === "option1" || answer1 === "option2") && (answer2 === "option4") && (answer3 === "option3" || answer3 === "option2") && (answer4 === "option4" || answer4 === "option2") && (answer5 === "option4" || answer5 === "option2")) {
+  } else if ((bed === "option1" || bed === "option2") && (instrument === "option4") && (book === "option3" || book === "option2") && (comp === "option4" || comp === "option2") && (pet === "option4" || pet === "option2")) {
     return "You are Python person!";
-  } else if ((answer1 === "option3") && (answer2 === "option1") && (answer3 === "option3" || answer3 === "option1") && (answer4 === "option4" || answer4 === "option1") &&  answer5 === "option4")) {
+  } else if (bed === "option3" && instrument === "option1" && (book === "option3" || book === "option1") && (comp === "option4" || comp === "option1") &&  pet === "option4") {
     return "You are Ruby person!";
   } else {
     return "Are you sure that you want to learn how to code?)))"
