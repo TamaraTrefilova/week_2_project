@@ -41,10 +41,10 @@ $(document).ready(function() {
     $(".languageOutput").append(result);
     $(".modal").show();
     $("button.close").click(function() {
-      $("#myModal").modal("hide");
+      $("#myModal").hide("hide");
     });
     $("button.btn-secondary").click(function() {
-      $("#myModal").modal("hide");
+      $("#myModal").hide("hide");
     });
   });
 
