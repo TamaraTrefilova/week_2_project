@@ -6,7 +6,7 @@
 
 ## Description:
 
-### The goal is  to create # Portfolio
+### The goal is  to create # Quiz
 
 #### The first independent project at Epicodus 05-31-2019
 
@@ -32,6 +32,7 @@ There are no issues.
 ## Support and contact details
 
 tamara.trefilova@gmail.com
+## GitHub pages :https://tamaratrefilova.github.io/week_2_project/
 
 ## Technologies Used
 
@@ -63,7 +64,7 @@ tamara.trefilova@gmail.com
 
 ## Technologies Used
 
-HTML, CSS, Bootstrap and some fantasy
+HTML, CSS, Bootstrap, jQuery and some fantasy
 
 ### License
 
